@@ -1,0 +1,30 @@
+#$ TITLE: nivek_mode_preset 4.3 Modes and Adjustment settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: mode, modes, aux, switch
+#$ AUTHOR: nivekwell
+#$ DESCRIPTION: nivek modes for 4.3 defaults no gps
+
+# aux switch settings
+
+aux 0 0 0 1300 2100 0 0
+aux 1 0 2 1700 2100 0 0
+aux 2 1 1 1300 2100 0 0
+aux 3 13 2 1300 1700 0 0
+aux 4 15 3 1300 1700 0 0
+aux 5 28 0 1700 2100 0 0
+aux 6 40 4 1700 2100 0 0
+aux 7 0 0 900 900 0 0
+aux 8 0 0 900 900 0 0
+aux 9 0 0 900 900 0 0
+aux 10 0 0 900 900 0 0
+aux 11 0 0 900 900 0 0
+aux 12 0 0 900 900 0 0
+aux 13 0 0 900 900 0 0
+aux 14 0 0 900 900 0 0
+aux 15 0 0 900 900 0 0
+aux 16 0 0 900 900 0 0
+aux 17 0 0 900 900 0 0
+aux 18 0 0 900 900 0 0
+aux 19 0 0 900 900 0 0
