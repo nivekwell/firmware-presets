@@ -138,6 +138,7 @@
       "4.3"
     ],
     "category": [
+      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -171,7 +172,6 @@
       "MrAlucardDante",
       "NemesisXB",
       "NivekWell",
-      "NivkeWell",
       "Sjoer van der Ploeg",
       "sugarK",
       "SupaflyFPV",
@@ -416,12 +416,12 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/nivekwell_master_base_preset.txt",
-      "hash": "dc419ae8dd408c164d1548d21eb4f9ee7f89fe70c27f36ecc8c2e2b36eda8c1e",
+      "hash": "4f55cc90a3ae8e55e5e663b15d194f8b345c767c5fc099123f60268d49f41bac",
       "title": "NivekWell - Master Base Presets",
       "firmware_version": [
         "4.3"
       ],
-      "category": "OSD",
+      "category": "BNF",
       "status": "COMMUNITY",
       "keywords": [
         "master",
@@ -766,8 +766,8 @@
     },
     {
       "fullPath": "presets/4.3/filters/nivekwell_karate_filter.txt",
-      "hash": "5d0d1b0fbc72482bede97e63e45d3a45647aa1ea171ba9d79a7a93bf91b2ea7d",
-      "title": "NivkeWell Karate filter",
+      "hash": "3b3a8efb84842fc0a9e2b781c6115703854169c2f8cf3865e6d2a34c1f0aee80",
+      "title": "NivekWell Karate filter",
       "firmware_version": [
         "4.3"
       ],
@@ -779,7 +779,7 @@
         "karate",
         "HDfreesytle"
       ],
-      "author": "NivkeWell",
+      "author": "NivekWell",
       "priority": 100
     },
     {
@@ -822,8 +822,8 @@
     },
     {
       "fullPath": "presets/4.3/modes/nivek_mode_preset.txt",
-      "hash": "00a0aaaf091afc197bba03a3f6c81713e7148d210db03bd693d0fef05f156008",
-      "title": "nivek_mode_preset 4.3 Modes and Adjustment settings",
+      "hash": "8f464ac836e9493abb37fe6829ac93eaf8a6f4d82c3ba5076d189c34d69ea1a3",
+      "title": "NivekWell mode preset 4.3 Modes and Adjustment settings",
       "firmware_version": [
         "4.3"
       ],
@@ -835,7 +835,7 @@
         "aux",
         "switch"
       ],
-      "author": "nivekwell",
+      "author": "NivekWell",
       "priority": 0
     },
     {
@@ -1353,8 +1353,8 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/4.3/rates/NivekWell rates.txt",
-      "hash": "4ad68f33e723a9e21f5e34f448c3a6659256b877023c9338e1734cea790b2a48",
+      "fullPath": "presets/4.3/rates/NivekWell_rates.txt",
+      "hash": "f168c62748d912a34a31b2b93a3bd352b3f11557fcc351530d0e5bbd9b19310d",
       "title": "NivekWell rates",
       "firmware_version": [
         "4.3"
@@ -2253,7 +2253,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/tbs/nivekwell_crsf_150hz.txt",
-      "hash": "1a90254bf6509c44ae855d6f19f94bee82c98b9edca714c72d9f4e066a89e84f",
+      "hash": "3aff7c92b0033a264b07f688ad7858aac45888ef67391f2bb12f74d97883caab",
       "title": "NivekWell CRSF 150Hz",
       "firmware_version": [
         "4.3"
@@ -2270,13 +2270,13 @@
         "rx",
         "link"
       ],
-      "author": "Ivan Efimov (Limon)",
+      "author": "NivekWell",
       "force_options_review": true,
       "priority": 10000000000
     },
     {
       "fullPath": "presets/4.3/rc_link/tbs/nivekwell_crsf_50hz.txt",
-      "hash": "42a62268fba7e9d8092cfa285298398e50592a4b2be401b0cf69ad04e642aafc",
+      "hash": "1ce10a62651418b0efecb7034ebe28c8441626b686d8b5f0baf1c1f6db137488",
       "title": "NivekWell CRSF 50Hz",
       "firmware_version": [
         "4.3"
@@ -2293,13 +2293,13 @@
         "rx",
         "link"
       ],
-      "author": "Ivan Efimov (Limon)",
+      "author": "NivekWell",
       "force_options_review": true,
       "priority": 10000000000
     },
     {
       "fullPath": "presets/4.3/rc_link/tbs/nivekwell_tracer_250hz.txt",
-      "hash": "ec3604deef670e19afc000bc316fdae84b628c2e3304e57970ae3eedc7d66b77",
+      "hash": "f9fceb1118dc64d64b9858e5f3caca9f3a18f3c7034647c2cbd7a81e700f234a",
       "title": "NivekWell Tracer 50Hz",
       "firmware_version": [
         "4.3"
@@ -2317,7 +2317,7 @@
         "rx",
         "link"
       ],
-      "author": "Ivan Efimov (Limon)",
+      "author": "NivekWell",
       "force_options_review": true,
       "priority": 10000000000
     },

@@ -3,11 +3,11 @@
 #$ CATEGORY: RC_LINK
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 50Hz, TBS, Crossfire, Team Black Sheep, CRSF, rc, rx , link
-#$ AUTHOR: Ivan Efimov (Limon)
+#$ AUTHOR: NivekWell
 
 #$ DESCRIPTION:
 #$ DESCRIPTION: RC link settings for TBS Crossfire. **Mode: 50Hz**.
-#$ DESCRIPTION:
+#$ DESCRIPTION:credit to Ivan Efimov (Limon)
 #$ DESCRIPTION: WARNING:
 #$ DESCRIPTION: --------
 #$ DESCRIPTION: *  Dynamic Crossfire 50Hz/150Hz is **NOT** recommended. Locking at 150Hz or 50Hz is better.

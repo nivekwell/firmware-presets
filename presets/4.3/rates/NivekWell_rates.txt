@@ -4,6 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: nivekwell, rates, actual
 #$ AUTHOR: NivekWell
+
 #$ DESCRIPTION: NivekWell ACTUAL 650-650-500
 #$ DESCRIPTION: Will be applied for the currently selected rate profile
 #$ DESCRIPTION: TPA values are not included
@@ -21,6 +22,3 @@ set yaw_expo = 0
 set roll_srate = 65
 set pitch_srate = 65
 set yaw_srate = 50
-set roll_rate_limit = 1998
-set pitch_rate_limit = 1998
-set yaw_rate_limit = 1998

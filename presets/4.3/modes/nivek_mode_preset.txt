@@ -1,9 +1,9 @@
-#$ TITLE: nivek_mode_preset 4.3 Modes and Adjustment settings
+#$ TITLE: NivekWell mode preset 4.3 Modes and Adjustment settings
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: mode, modes, aux, switch
-#$ AUTHOR: nivekwell
+#$ AUTHOR: NivekWell
 #$ DESCRIPTION: nivek modes for 4.3 defaults no gps
 
 # aux switch settings
