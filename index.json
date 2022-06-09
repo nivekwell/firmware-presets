@@ -416,7 +416,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/nivekwell_master_base_preset.txt",
-      "hash": "758033e13d083adb7c234f78f74139e2d81871a7f4676d5b778c19b4f0dd7c16",
+      "hash": "2487f4646fe17e072ca93340f1069a14e6e6662a26a93e8ecd0cdd335a751263",
       "title": "NivekWell - Master Base Presets",
       "firmware_version": [
         "4.3"
@@ -2299,8 +2299,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/tbs/nivekwell_tracer_250hz.txt",
-      "hash": "f9fceb1118dc64d64b9858e5f3caca9f3a18f3c7034647c2cbd7a81e700f234a",
-      "title": "NivekWell Tracer 50Hz",
+      "hash": "21172d94a2f1c5d8624a9c7ea8330be661bff4db5a46ae6cf2998dec2720c163",
+      "title": "NivekWell Tracer 250Hz",
       "firmware_version": [
         "4.3"
       ],

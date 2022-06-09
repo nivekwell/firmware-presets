@@ -29,3 +29,6 @@ set yaw_motors_reversed = ON
 
 # power n battery
 set vbat_max_cell_voltage = 440
+
+set deadband = 2
+set yaw_deadband = 2
