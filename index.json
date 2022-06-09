@@ -171,6 +171,7 @@
       "MrAlucardDante",
       "NemesisXB",
       "nivekwell",
+      "NivekWell)",
       "Sjoer van der Ploeg",
       "sugarK",
       "SupaflyFPV",
@@ -315,6 +316,7 @@
       "names",
       "nano",
       "nanohawk",
+      "nivekwell",
       "no rpm",
       "noisy",
       "normal",
@@ -1138,19 +1140,19 @@
     },
     {
       "fullPath": "presets/4.3/rates/defaults.txt",
-      "hash": "9d063433102e8340d3d0ad396f6dc998c7030c0b9ecc4bb2a6c5b86a5def07fe",
-      "title": "Default rates",
+      "hash": "4ad68f33e723a9e21f5e34f448c3a6659256b877023c9338e1734cea790b2a48",
+      "title": "NivekWell rates",
       "firmware_version": [
         "4.3"
       ],
       "category": "RATES",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
-        "defaults",
+        "nivekwell",
         "rates",
         "actual"
       ],
-      "author": "Betaflight",
+      "author": "NivekWell",
       "priority": 0
     },
     {
@@ -1282,8 +1284,25 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/4.3/rates/NivekWell rates.txt",
+      "hash": "4ad68f33e723a9e21f5e34f448c3a6659256b877023c9338e1734cea790b2a48",
+      "title": "NivekWell rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "nivekwell",
+        "rates",
+        "actual"
+      ],
+      "author": "NivekWell",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/rates/UAV_tech.txt",
-      "hash": "b0ca5a2a097e8b90f0aa50cbc72936512b4adfdde9a83cff76bd05fc87d36e62",
+      "hash": "08a104b3405e429853cb828c0522988226807d80f6cf579586dbc658a96c4323",
       "title": "UAV Tech Rates (w/ Cinematic/Whoop Options)",
       "firmware_version": [
         "4.3"
@@ -1296,7 +1315,7 @@
         "cinematic",
         "HD"
       ],
-      "author": "UAV Tech (Mark Spatz)",
+      "author": "NivekWell)",
       "priority": 10000
     },
     {
