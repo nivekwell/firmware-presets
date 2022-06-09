@@ -19,6 +19,10 @@ set small_angle = 180
 # beeper
 beeper -ON_USB
 
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
 # motor
 set motor_pwm_protocol = DSHOT300
 set yaw_motors_reversed = ON

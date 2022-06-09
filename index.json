@@ -416,7 +416,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/nivekwell_master_base_preset.txt",
-      "hash": "4f55cc90a3ae8e55e5e663b15d194f8b345c767c5fc099123f60268d49f41bac",
+      "hash": "758033e13d083adb7c234f78f74139e2d81871a7f4676d5b778c19b4f0dd7c16",
       "title": "NivekWell - Master Base Presets",
       "firmware_version": [
         "4.3"
