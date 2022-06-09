@@ -1,0 +1,38 @@
+#$ TITLE: NivekWell - DJI OSD with GPS
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: DJI, GPS
+#$ AUTHOR: NivekWell
+
+#$ DESCRIPTION: NivekWell DJI GPS OSD
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: General DJI **with GPS** OSD setup.  Make sure to have Custom OSD enabled in your DJI Goggles for Betaflight elements to display.
+
+
+
+set osd_vbat_pos = 2337
+set osd_rssi_pos = 225
+set osd_tim_2_pos = 376
+set osd_current_pos = 2433
+set osd_mah_drawn_pos = 2401
+set osd_craft_name_pos = 399
+set osd_gps_speed_pos = 2177
+set osd_gps_lon_pos = 2497
+set osd_gps_lat_pos = 2465
+set osd_gps_sats_pos = 2113
+set osd_home_dir_pos = 2209
+set osd_home_dist_pos = 2241
+set osd_warnings_pos = 331
+set osd_avg_cell_voltage_pos = 2305
+set osd_disarmed_pos = 2444
+set osd_flip_arrow_pos = 303
+set osd_stat_max_spd = OFF
+set osd_stat_min_batt = OFF
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_min_link_quality = ON

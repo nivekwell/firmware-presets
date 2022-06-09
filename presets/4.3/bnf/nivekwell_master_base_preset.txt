@@ -1,0 +1,27 @@
+#$ TITLE: NivekWell - Master Base Presets
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: master, base, nivekwell
+#$ AUTHOR: NivekWell
+
+#$ DESCRIPTION: NivekWell master base presets
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: Base presets for configuration, power n battery tabs
+
+
+# feature
+feature -AIRMODE
+set small_angle = 180
+
+# beeper
+beeper -ON_USB
+
+# motor
+set motor_pwm_protocol = DSHOT300
+set yaw_motors_reversed = ON
+
+# power n battery
+set vbat_max_cell_voltage = 440

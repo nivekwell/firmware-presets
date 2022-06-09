@@ -170,8 +170,8 @@
       "MinChan Kim",
       "MrAlucardDante",
       "NemesisXB",
-      "nivekwell",
-      "NivekWell)",
+      "NivekWell",
+      "NivkeWell",
       "Sjoer van der Ploeg",
       "sugarK",
       "SupaflyFPV",
@@ -228,6 +228,7 @@
       "AyyyKayyy",
       "bando",
       "bardwell",
+      "base",
       "basher",
       "basic",
       "betaflight",
@@ -287,6 +288,7 @@
       "gyros",
       "gyroscope",
       "HD",
+      "HDfreesytle",
       "HDzero",
       "Headsup",
       "hot",
@@ -308,6 +310,7 @@
       "logging",
       "Long Range",
       "mamba",
+      "master",
       "meteor",
       "MinChan",
       "mode",
@@ -385,7 +388,7 @@
       "tiny tank",
       "tinyTrainer",
       "toothpic",
-      "Tracer",
+      "tracer",
       "trainer",
       "tramp",
       "transmitter",
@@ -411,6 +414,23 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/bnf/nivekwell_master_base_preset.txt",
+      "hash": "dc419ae8dd408c164d1548d21eb4f9ee7f89fe70c27f36ecc8c2e2b36eda8c1e",
+      "title": "NivekWell - Master Base Presets",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "master",
+        "base",
+        "nivekwell"
+      ],
+      "author": "NivekWell",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/filters/ctzsnooze_race.txt",
       "hash": "751a6f316eb81fd94215291eb35b719cc52d9ca66baa53668d495f8351e1156c",
@@ -745,6 +765,24 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.3/filters/nivekwell_karate_filter.txt",
+      "hash": "5d0d1b0fbc72482bede97e63e45d3a45647aa1ea171ba9d79a7a93bf91b2ea7d",
+      "title": "NivkeWell Karate filter",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "karate",
+        "HDfreesytle"
+      ],
+      "author": "NivkeWell",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.3/leds/defaults.txt",
       "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
       "title": "Default 4.3 LED settings",
@@ -784,7 +822,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/nivek_mode_preset.txt",
-      "hash": "649b392920efa6ae26d6cbee2045a31ba15a979859a02e457fd3a8ef08102d82",
+      "hash": "00a0aaaf091afc197bba03a3f6c81713e7148d210db03bd693d0fef05f156008",
       "title": "nivek_mode_preset 4.3 Modes and Adjustment settings",
       "firmware_version": [
         "4.3"
@@ -815,6 +853,37 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/nivekwell_DJI_GPS_osd.txt",
+      "hash": "e6787210d9c55c0f25f3acbf6c3a4c2f89bfa791d18e60cace7f43f5f9ee6ed2",
+      "title": "NivekWell - DJI OSD with GPS",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "DJI",
+        "GPS"
+      ],
+      "author": "NivekWell",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/nivekwell_DJI_osd.txt",
+      "hash": "0b13f283461c73081e09a78bc1ccd9fb7da2e2a857290cf2b459bce704abb8d7",
+      "title": "NivekWell - DJI OSD",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "DJI"
+      ],
+      "author": "NivekWell",
       "priority": 0
     },
     {
@@ -1140,19 +1209,19 @@
     },
     {
       "fullPath": "presets/4.3/rates/defaults.txt",
-      "hash": "4ad68f33e723a9e21f5e34f448c3a6659256b877023c9338e1734cea790b2a48",
-      "title": "NivekWell rates",
+      "hash": "9d063433102e8340d3d0ad396f6dc998c7030c0b9ecc4bb2a6c5b86a5def07fe",
+      "title": "Default rates",
       "firmware_version": [
         "4.3"
       ],
       "category": "RATES",
-      "status": "COMMUNITY",
+      "status": "OFFICIAL",
       "keywords": [
-        "nivekwell",
+        "defaults",
         "rates",
         "actual"
       ],
-      "author": "NivekWell",
+      "author": "Betaflight",
       "priority": 0
     },
     {
@@ -1302,7 +1371,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/UAV_tech.txt",
-      "hash": "08a104b3405e429853cb828c0522988226807d80f6cf579586dbc658a96c4323",
+      "hash": "b0ca5a2a097e8b90f0aa50cbc72936512b4adfdde9a83cff76bd05fc87d36e62",
       "title": "UAV Tech Rates (w/ Cinematic/Whoop Options)",
       "firmware_version": [
         "4.3"
@@ -1315,7 +1384,7 @@
         "cinematic",
         "HD"
       ],
-      "author": "NivekWell)",
+      "author": "UAV Tech (Mark Spatz)",
       "priority": 10000
     },
     {
@@ -2174,6 +2243,76 @@
         "Crossfire",
         "Team Black Sheep",
         "CRSF",
+        "rc",
+        "rx",
+        "link"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/tbs/nivekwell_crsf_150hz.txt",
+      "hash": "1a90254bf6509c44ae855d6f19f94bee82c98b9edca714c72d9f4e066a89e84f",
+      "title": "NivekWell CRSF 150Hz",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "150Hz",
+        "TBS",
+        "Crossfire",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/tbs/nivekwell_crsf_50hz.txt",
+      "hash": "42a62268fba7e9d8092cfa285298398e50592a4b2be401b0cf69ad04e642aafc",
+      "title": "NivekWell CRSF 50Hz",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "50Hz",
+        "TBS",
+        "Crossfire",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/tbs/nivekwell_tracer_250hz.txt",
+      "hash": "ec3604deef670e19afc000bc316fdae84b628c2e3304e57970ae3eedc7d66b77",
+      "title": "NivekWell Tracer 50Hz",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "250Hz",
+        "TBS",
+        "Crossfire",
+        "Team Black Sheep",
+        "CRSF",
+        "tracer",
         "rc",
         "rx",
         "link"

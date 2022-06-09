@@ -1,0 +1,41 @@
+#$ TITLE: NivekWell - DJI OSD
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: DJI
+#$ AUTHOR: NivekWell
+
+#$ DESCRIPTION: NivekWell DJI OSD
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: General DJI OSD setup.  Make sure to have Custom OSD enabled in your DJI Goggles for Betaflight elements to display.
+
+
+
+set osd_cap_alarm = 1000
+set osd_alt_alarm = 400
+set osd_vbat_pos = 320
+set osd_rssi_pos = 448
+set osd_link_quality_pos = 2496
+set osd_tim_2_pos = 266
+set osd_remaining_time_estimate_pos = 299
+set osd_throttle_pos = 2080
+set osd_current_pos = 2487
+set osd_mah_drawn_pos = 2457
+set osd_gps_speed_pos = 100
+set osd_gps_lon_pos = 67
+set osd_gps_lat_pos = 35
+set osd_gps_sats_pos = 4
+set osd_home_dir_pos = 9
+set osd_home_dist_pos = 12
+set osd_flight_dist_pos = 79
+set osd_compass_bar_pos = 41
+set osd_altitude_pos = 131
+set osd_warnings_pos = 394
+set osd_avg_cell_voltage_pos = 2546
+set osd_pit_ang_pos = 2048
+set osd_battery_usage_pos = 49192
+set osd_disarmed_pos = 2507
+set osd_nvario_pos = 164
+set osd_rtc_date_time_pos = 8
