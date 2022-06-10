@@ -416,7 +416,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/nivekwell_master_base_preset.txt",
-      "hash": "2487f4646fe17e072ca93340f1069a14e6e6662a26a93e8ecd0cdd335a751263",
+      "hash": "8deb42af4578708195d2d7f98894c1db80a281bf9867b1ba053aa2f8c56d8627",
       "title": "NivekWell - Master Base Presets",
       "firmware_version": [
         "4.3"
@@ -766,7 +766,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/nivekwell_karate_filter.txt",
-      "hash": "3b3a8efb84842fc0a9e2b781c6115703854169c2f8cf3865e6d2a34c1f0aee80",
+      "hash": "a0d549313919f342e666d6601a172aa45635d5a0000f56502141f43445948960",
       "title": "NivekWell Karate filter",
       "firmware_version": [
         "4.3"
@@ -780,6 +780,7 @@
         "HDfreesytle"
       ],
       "author": "NivekWell",
+      "force_options_review": true,
       "priority": 100
     },
     {
@@ -918,7 +919,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/UAV_tech_DJI_GPS.txt",
-      "hash": "71aa3f012c239248629894e48e5ce5d7e83fc4c4b3e6e166d835a73b8e8588e7",
+      "hash": "0cabc37621cb8ae0051c64fa40d63e83ac22cfa3a3dd452f2b1630aaae4c1e74",
       "title": "UAV Tech - DJI with GPS",
       "firmware_version": [
         "4.3"

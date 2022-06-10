@@ -32,3 +32,11 @@ set vbat_max_cell_voltage = 440
 
 set deadband = 2
 set yaw_deadband = 2
+
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+
+# -- Angle strength
+set angle_level_strength = 75
+
+set rpm_filter_fade_range_hz = 100

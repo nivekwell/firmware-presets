@@ -7,14 +7,14 @@
 #$ DESCRIPTION: the Karate fitler stated in Chriss Rosser tuning video for betaflight 4.3
 #$ DESCRIPTION: NOTE this needs bidirectional Dshot support and RPM filtering active to use. DO NOT ATEMPT TO USE WITH OUT RPM FILTERING!
 #$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
 #$ INCLUDE: presets/4.3/filters/defaults.txt
-
-
 
 # -- Gyro lowpass filters --
 set gyro_lpf1_static_hz = 0
 set gyro_lpf1_dyn_min_hz = 0
-
 
 # -- Gyro Dynamic Notches --
 set dyn_notch_count = 2
