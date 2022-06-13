@@ -8,7 +8,6 @@
 #$ DESCRIPTION: NOTE this needs bidirectional Dshot support and RPM filtering active to use. DO NOT ATEMPT TO USE WITH OUT RPM FILTERING!
 #$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
 
-#$ FORCE_OPTIONS_REVIEW: TRUE
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
@@ -43,10 +42,14 @@ set pidsum_limit_yaw = 1000
 # -- Angle strength
 set angle_level_strength = 75
 
-# OPTION BEGIN (UNCHECKED): Dshot300
-set motor_pwm_protocol = Dshot300
-# OPTION END
+#$ OPTION BEGIN (UNCHECKED): Dshot300
 
-# OPTION BEGIN (UNCHECKED): Dshot600
+set motor_pwm_protocol = Dshot300
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Dshot600
+
 set motor_pwm_protocol = DSHOT600
-# OPTION END
+
+#$ OPTION END

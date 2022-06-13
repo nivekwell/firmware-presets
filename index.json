@@ -766,7 +766,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/nivekwell_karate_filter.txt",
-      "hash": "a0d549313919f342e666d6601a172aa45635d5a0000f56502141f43445948960",
+      "hash": "61cda18bb45ac8060a5a5dcb17d69811225ed361ae7a210d8585afeb37a1d86d",
       "title": "NivekWell Karate filter",
       "firmware_version": [
         "4.3"
@@ -780,7 +780,6 @@
         "HDfreesytle"
       ],
       "author": "NivekWell",
-      "force_options_review": true,
       "priority": 100
     },
     {
@@ -858,7 +857,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/nivekwell_DJI_GPS_osd.txt",
-      "hash": "e6787210d9c55c0f25f3acbf6c3a4c2f89bfa791d18e60cace7f43f5f9ee6ed2",
+      "hash": "69e6eaedf21b20a22b668f2309447862179fd955e938a65b9cefef7d134810cb",
       "title": "NivekWell - DJI OSD with GPS",
       "firmware_version": [
         "4.3"
@@ -874,7 +873,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/nivekwell_DJI_osd.txt",
-      "hash": "0b13f283461c73081e09a78bc1ccd9fb7da2e2a857290cf2b459bce704abb8d7",
+      "hash": "0b743dac50607d9caaed9c2c1d194dc107f85cbe971fe80429cd8d442dee507e",
       "title": "NivekWell - DJI OSD",
       "firmware_version": [
         "4.3"
@@ -919,7 +918,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/UAV_tech_DJI_GPS.txt",
-      "hash": "0cabc37621cb8ae0051c64fa40d63e83ac22cfa3a3dd452f2b1630aaae4c1e74",
+      "hash": "a0ec933322c42ac7f31c8ff48f5486363a3b6e0c7e957f34a063a393e4685a8a",
       "title": "UAV Tech - DJI with GPS",
       "firmware_version": [
         "4.3"

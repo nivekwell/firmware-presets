@@ -11,6 +11,7 @@
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION: General DJI OSD setup.  Make sure to have Custom OSD enabled in your DJI Goggles for Betaflight elements to display.
 
+#$ INCLUDE: presets/4.3/osd/defaults.txt
 
 
 set osd_cap_alarm = 1000
