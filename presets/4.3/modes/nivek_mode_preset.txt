@@ -6,6 +6,8 @@
 #$ AUTHOR: NivekWell
 #$ DESCRIPTION: nivek modes for 4.3 defaults no gps
 
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
 # aux switch settings
 
 aux 0 0 0 1300 2100 0 0
