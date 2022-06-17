@@ -684,7 +684,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/nivekwell_DJI_osd.txt",
-      "hash": "0b743dac50607d9caaed9c2c1d194dc107f85cbe971fe80429cd8d442dee507e",
+      "hash": "5fbc5749af93a7c0f2bf835244b172f378d97039891a3dba42b06d6abf0edcd0",
       "title": "NivekWell - DJI OSD",
       "firmware_version": [
         "4.3"
@@ -902,7 +902,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/NivekWell_rates.txt",
-      "hash": "f168c62748d912a34a31b2b93a3bd352b3f11557fcc351530d0e5bbd9b19310d",
+      "hash": "ec5cb508d43d988b9ede550412712cbf8f1226be9553fc08e8647cdd1ba1619e",
       "title": "NivekWell rates",
       "firmware_version": [
         "4.3"
