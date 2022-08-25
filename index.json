@@ -314,8 +314,25 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/nivekwell_master_base_preset.txt",
-      "hash": "8deb42af4578708195d2d7f98894c1db80a281bf9867b1ba053aa2f8c56d8627",
+      "hash": "f3d8acd7e4c8c3b1046175717e35546bb27dd4b873d10a7aa2e08284d532f075",
       "title": "NivekWell - Master Base Presets",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "master",
+        "base",
+        "nivekwell"
+      ],
+      "author": "NivekWell",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/bnf/NivekWell_Master_option.txt",
+      "hash": "7df428fb3d414c0acf49da3bd3a0fc992b47c651df444d08e31a0733bf4e3164",
+      "title": "NivekWell - Master option",
       "firmware_version": [
         "4.3"
       ],
@@ -668,7 +685,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/nivekwell_DJI_GPS_osd.txt",
-      "hash": "69e6eaedf21b20a22b668f2309447862179fd955e938a65b9cefef7d134810cb",
+      "hash": "c556f9dc49594b1168bf6363ff5aa8c43a95df65911e27032c3356b9cdeb1d31",
       "title": "NivekWell - DJI OSD with GPS",
       "firmware_version": [
         "4.3"
@@ -684,7 +701,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/nivekwell_DJI_osd.txt",
-      "hash": "5fbc5749af93a7c0f2bf835244b172f378d97039891a3dba42b06d6abf0edcd0",
+      "hash": "fd2f7eadff7d7ec38fbf582ea1e002f1b4f0a37b4f7dd6635dbdf388d77b08ee",
       "title": "NivekWell - DJI OSD",
       "firmware_version": [
         "4.3"

@@ -14,7 +14,11 @@
 
 # feature
 feature -AIRMODE
+feature TELEMETRY
+feature LED_STRIP
 set small_angle = 180
+set mag_hardware = NONE
+set baro_hardware = NONE
 
 # beeper
 beeper -ON_USB
@@ -28,6 +32,8 @@ set motor_pwm_protocol = DSHOT300
 set yaw_motors_reversed = ON
 
 # power n battery
+set current_meter = ADC
+set battery_meter = ADC
 set vbat_max_cell_voltage = 440
 
 set deadband = 2
@@ -35,8 +41,12 @@ set yaw_deadband = 2
 
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
+set rpm_filter_fade_range_hz = 100
 
 # -- Angle strength
 set angle_level_strength = 75
 
-set rpm_filter_fade_range_hz = 100
+set debug_mode = GYRO_SCALED
+
+
+

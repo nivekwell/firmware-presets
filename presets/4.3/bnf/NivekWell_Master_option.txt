@@ -1,0 +1,179 @@
+#$ TITLE: NivekWell - Master option
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: BNF
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: master, base, nivekwell
+#$ AUTHOR: NivekWell
+
+#$ DESCRIPTION: NivekWell master base presets
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: Base presets for configuration, power n battery tabs
+
+
+# feature
+feature -AIRMODE
+feature TELEMETRY
+feature LED_STRIP
+set small_angle = 180
+set mag_hardware = NONE
+set baro_hardware = NONE
+
+# beeper
+beeper -ON_USB
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# motor
+set motor_pwm_protocol = DSHOT300
+set yaw_motors_reversed = ON
+
+# power n battery
+set current_meter = ADC
+set battery_meter = ADC
+set vbat_max_cell_voltage = 440
+
+# receiver
+set serialrx_provider = CRSF
+set deadband = 2
+set yaw_deadband = 2
+
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+
+#RATES
+#$ INCLUDE: presets/4.3/rates/defaults.txt
+
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 5
+set pitch_rc_rate = 5
+set yaw_rc_rate = 7
+set roll_expo = 0
+set pitch_expo = 0
+set yaw_expo = 0
+set roll_srate = 65
+set pitch_srate = 65
+set yaw_srate = 50
+
+
+# -- Angle strength
+set angle_level_strength = 75
+
+set debug_mode = GYRO_SCALED
+
+
+
+
+#$ OPTION BEGIN (UNCHECKED): Dshot300
+
+set motor_pwm_protocol = Dshot300
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Dshot600
+
+set motor_pwm_protocol = DSHOT600
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RPM filtering
+
+set dshot_bidir = ON
+set rpm_filter_fade_range_hz = 100
+set rpm_filter_min_hz = 100
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): dji osd
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+set osd_warn_link_quality = ON
+set osd_tim2 = 1
+set osd_link_quality_pos = 2227
+set osd_throttle_pos = 2080
+set osd_current_pos = 2487
+set osd_mah_drawn_pos = 2457
+set osd_craft_name_pos = 2534
+set osd_warnings_pos = 2195
+set osd_avg_cell_voltage_pos = 2546
+set osd_pit_ang_pos = 2048
+set osd_disarmed_pos = 2507
+
+set osd_stat_max_spd = OFF
+set osd_stat_min_batt = OFF
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_min_link_quality = ON
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): dji gps osd
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+set osd_warn_link_quality = ON
+set osd_tim_2_pos = 1
+set osd_link_quality_pos = 2227
+set osd_current_pos = 2487
+set osd_mah_drawn_pos = 2457
+set osd_craft_name_pos = 2534
+set osd_warnings_pos = 2195
+set osd_avg_cell_voltage_pos = 2546
+set osd_pit_ang_pos = 2048
+set osd_disarmed_pos = 2507
+set osd_gps_speed_pos = 2369
+set osd_gps_lon_pos = 2497
+set osd_gps_lat_pos = 2465
+set osd_gps_sats_pos = 2177
+set osd_home_dir_pos = 2306
+set osd_home_dist_pos = 2273
+
+set osd_flip_arrow_pos = 303
+
+set osd_stat_max_spd = OFF
+set osd_stat_min_batt = OFF
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_min_link_quality = ON
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RPM filtering
+
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
+# aux switch settings
+
+aux 0 0 0 1300 2100 0 0
+aux 1 0 2 1550 2100 0 0
+aux 2 1 1 1300 2100 0 0
+aux 3 13 2 1300 1700 0 0
+aux 4 28 0 1700 2100 0 0
+aux 5 35 2 1700 2100 0 0
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Tracer HD Freestyle
+    #$ INCLUDE: presets/4.3/rc_link/generic/250hz_hd_freestyle.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire 50Hz HD Freestyle
+    #$ INCLUDE: presets/4.3/rc_link/generic/50hz_hd_freestyle.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire 150Hz HD Freestyle
+    #$ INCLUDE: presets/4.3/rc_link/generic/150hz_hd_freestyle.txt
+#$ OPTION END
+
+
+
+
